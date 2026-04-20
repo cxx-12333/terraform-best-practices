@@ -1,0 +1,25 @@
+{
+  "name": "terraform-best-practices",
+  "version": "2.4.0",
+  "description": "Terraform 与基础设施即代码优化指南（多云通用）。81 条规则，12 个分类，覆盖 AWS/Azure/GCP/阿里云/腾讯云。",
+  "license": "MIT",
+  "author": "cxx-12333",
+  "repository": "https://github.com/cxx-12333/terraform-best-practices",
+  "entry": "SKILL.md",
+  "categories": [
+    "组织与工作流",
+    "状态管理",
+    "控制层设计",
+    "原子层设计",
+    "声明层设计",
+    "模块设计",
+    "资源设计",
+    "变量与输出模式",
+    "语言特性",
+    "安全",
+    "性能",
+    "元规则"
+  ],
+  "cloudProviders": ["aws", "azure", "gcp", "alicloud", "tencentcloud"],
+  "tags": ["terraform", "opentofu", "iac", "multi-cloud", "best-practices", "atomic-control-declarative"]
+}
